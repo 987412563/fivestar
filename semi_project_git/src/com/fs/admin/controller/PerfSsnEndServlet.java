@@ -40,18 +40,17 @@ public class PerfSsnEndServlet extends HttpServlet {
 		
 		String str = request.getParameter("timeChoice");
 		LocalDateTime parseLocalDateTime = LocalDateTime.parse(str);
-		//parseLocalDateTime.
 		
 		String str2 = parseLocalDateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
 		Date dateTime = new Date(parseLocalDateTime.atZone(ZoneId.systemDefault()).toInstant().toEpochMilli());
 		
 		Calendar c=Calendar.getInstance();
-				c.setTime(dateTime);
-		System.out.println("perfSsnServlet :"+perfNo+c.get(Calendar.HOUR)+c.get(Calendar.MINUTE));
-		
-		
+				 c.setTime(dateTime);
 		
 		int result = new AdminService().insertPerfSsn(perfNo,dateTime);
+		
+		
+		System.out.println("perfSsnServlet :"+perfNo+c.get(Calendar.HOUR)+c.get(Calendar.MINUTE));
 		System.out.println("perfSsnServlet :"+result);
 		
 		String msg = "";

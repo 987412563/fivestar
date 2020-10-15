@@ -301,7 +301,6 @@
         	arr_check[0] = false;
         	alert("아이디를 양식에 맞게 입력해주세요");
         }
-        
         if(memberPwck.test($("#memberPw_").val())){
         	arr_check[1] = true;
         }else{

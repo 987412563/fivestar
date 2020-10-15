@@ -145,7 +145,7 @@
 	</nav>
 	
 	<div id="adminView">
-	<h2 style="text-align:center">공연 등록/삭제</h2>
+	<h2 style="text-align:center">공연정보 등록</h2>
 	<p style="text-align:center">모든 공연은 한 번 등록되면 삭제만 가능합니다. 이 점 주의해서 작성해주시기 바랍니다.</p>
 	<div id="enroll-container">
 		<form class="forms_form" action="<%=request.getContextPath() %>/admin/perfEndEnroll" method="post">

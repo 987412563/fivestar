@@ -88,7 +88,8 @@
             	<tr>
             		<th>답변</th>
 	              <td>
-	              	<textarea rows="15" cols="50" name="inqAnswer" placeholder="답변을 작성해주세요" onKeyUp="javascript:fnChkByte(this,'1000')"></textarea>
+	              	<textarea rows="15" cols="50" name="inqAnswer" placeholder="답변을 작성해주세요" 
+	              	onKeyUp="javascript:fnChkByte(this,'1000')"></textarea>
 	              	<span id="byteInfo">0</span> 1000bytes
 	              </td>
             	</tr>
