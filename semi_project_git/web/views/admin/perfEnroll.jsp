@@ -272,16 +272,6 @@
 						</td>
 					</tr>
 					<tr>
-						<th>공연포스터</th>
-						<td>
-							<div class="wrap-category">
-								<div id="poster-container">
-									<input type="file" name="perfPoster" id="perf_poster">
-								</div>
-							</div>	
-						</td>
-					</tr>
-					<tr>
 						<th>공연장 주소</th>
 						<td>
 							<div class="wrap-category">
@@ -328,9 +318,10 @@
 					</tr>
 				</table>
 				<br>
-				<input type="button" value="다음" onclick="fn_poster();">
+<!-- 				<input type="button" value="다음" onclick="fn_poster();"> -->
 			</div>
 		</form>
+
     </div>
 </section>
     
@@ -362,10 +353,12 @@
 			
     	});
 	});//function 끝
+
 	
 	function fn_poster(){
 		location.replace("<%=request.getContextPath()%>/admin/poster");
 	}
+
     
    
     
