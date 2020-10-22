@@ -49,7 +49,7 @@ int inqNo = Integer.parseInt(request.getParameter("inqNo"));
 		
 		request.getRequestDispatcher(path).forward(request, response);
 		
-		request.getRequestDispatcher("/views/admin/inquiryAnswer.jsp").forward(request, response);
+//		request.getRequestDispatcher("/views/admin/inquiryAnswer.jsp").forward(request, response);
 	
 	}
 

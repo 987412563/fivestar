@@ -287,7 +287,7 @@
                   <tr>
                      <td>
                         <p class="nodata">문의하신 내역이 없습니다.<br>
-                           오성티켓에 대한 모든 궁금증은 1:1 문의하기로 부담없이 확인하세요.
+                          	 오성티켓에 대한 모든 궁금증은 1:1 문의하기로 부담없이 확인하세요.
                         </p>
                      </td>
                   </tr>          
@@ -296,9 +296,9 @@
                   <tr>  
                      <td><a href="<%=request.getContextPath()%>/admin/inquiryAnswer?inqNo=<%=iq.getInqNo()%>" onclick="open(this.href,'','top=100px, left=300px, width=600px, height=400px, scrollbars=no');return false;"><%=iq.getInqTitle() %></a></td>
                      <td><% if(iq.getInqYn().equals("N")){%>
-                           처리중         
+                          	 처리중         
                         <%}else {%>
-                           답변완료
+                           	답변완료
                         <%} %>
                      </td>
                      <td><%=iq.getInqDate() %></td>   
