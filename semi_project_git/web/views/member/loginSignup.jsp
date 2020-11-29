@@ -165,7 +165,7 @@
           $("#result1").html("");
         }
       });
-    
+     
       //정규표현식 비밀번호
       var memberPwck = RegExp(/^.*(?=^.{8,15})(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%%^&*()]).*$/);
       $("#memberPw_").keyup(function(){
