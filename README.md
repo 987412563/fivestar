@@ -14,7 +14,7 @@
 ### 설계
 + diagrams : <https://app.diagrams.net/#G1-ROQED3VgMe1a768xLl6gt6EQ6Vccy8e>
 + KakaoOven : <https://ovenapp.io/view/FmrSBzGNoUQsb2va0wznflg1uWZylZ5Z/>
-+ 
++ ERD 
 
 ### 발표
 + UI 및 DB 설계, 실제 구현 화면 설명
