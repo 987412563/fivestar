@@ -14,3 +14,6 @@
 
 <h3>서버주소</h3>
 + http://rclass.iptime.org:9999/20PM_fiveStar/
+
+
+
