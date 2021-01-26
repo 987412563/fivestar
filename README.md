@@ -12,14 +12,14 @@
 + 설계주안점, 개발환경, 구현기능, 팀원별 역할
 
 ### 설계
-+ diagrams : <https://app.diagrams.net/#G1-ROQED3VgMe1a768xLl6gt6EQ6Vccy8e>
-+ KakaoOven : <https://ovenapp.io/view/FmrSBzGNoUQsb2va0wznflg1uWZylZ5Z/>
++ <a href="https://app.diagrams.net/#G1-ROQED3VgMe1a768xLl6gt6EQ6Vccy8e">Diagrams</a>
++ <a href="https://ovenapp.io/view/FmrSBzGNoUQsb2va0wznflg1uWZylZ5Z">KakaoOven</a>
 + ERD 
 
 ### 발표
 + UI 및 DB 설계, 실제 구현 화면 설명
 
 ### 서버주소
-+ <https://rclass.iptime.org:9999/20PM_fiveStar/>
++ <a href="https://rclass.iptime.org:9999/20PM_fiveStar/">오성티켓</a>
 
 
