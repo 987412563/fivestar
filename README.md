@@ -19,7 +19,3 @@
 ### 발표
 + UI 및 DB 설계, 실제 구현 화면 설명
 
-### 서버주소
-+ <a href="https://rclass.iptime.org:9999/20PM_fiveStar/">오성티켓</a>
-
-
